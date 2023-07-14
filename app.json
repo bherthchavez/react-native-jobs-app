@@ -5,6 +5,17 @@
       "bundler": "metro"
     },
     "name": "jobs-app",
-    "slug": "jobs-app"
+    "slug": "jobs-app",
+    "extra": {
+      "eas": {
+        "projectId": "cc523c3f-d790-4ad6-a40b-2e2339903464"
+      }
+    },
+    "android": {
+      "package": "com.bherth.jobsapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.bherth.jobsapp"
+    }
   }
 }
